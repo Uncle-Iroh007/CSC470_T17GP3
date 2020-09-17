@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "tG22td8koIqSd1b7Ct2zNR14QTizaB61e9tkFLmqrEU03DKNw8E76MLlssfrsMNStYJ/lLzkyPntCJ6XwjCnhg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sande\\source\\repos\\Solution1\\AppUser\\P3_Code.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sande\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\sande\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DSU\\source\\repos\\Uncle-Iroh007\\CSC470_T17GP3\\.vs\\Solution1\\AppUser\\P3_Code.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DSU\\source\\repos\\Uncle-Iroh007\\CSC470_T17GP3\\.vs\\Solution1\\AppUser\\P3_Code.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DSU\\source\\repos\\Uncle-Iroh007\\CSC470_T17GP3\\.vs\\Solution1\\AppUser\\P3_Code.csproj",
+        "projectName": "P3_Code",
+        "projectPath": "C:\\Users\\DSU\\source\\repos\\Uncle-Iroh007\\CSC470_T17GP3\\.vs\\Solution1\\AppUser\\P3_Code.csproj",
+        "packagesPath": "C:\\Users\\DSU\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DSU\\source\\repos\\Uncle-Iroh007\\CSC470_T17GP3\\.vs\\Solution1\\AppUser\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DSU\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
