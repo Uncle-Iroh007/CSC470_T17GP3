@@ -55,16 +55,26 @@ namespace P3_Code
 
         }
 
-        public bool Login(string Username, string Password)
+        public bool Login(string UserName, string Password)
         {
-            if(Username == Password)
+            AppUser user = GetByUserName(UserName);
+            if(user != null)
             {
-                return true;
+                if(user.Password == Password)
+                {
+                    SetAuthentication(UserName, true);
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
             else
             {
                 return false;
             }
+
         }
         public List<AppUser> GetAll()
         {
@@ -78,14 +88,26 @@ namespace P3_Code
         public void SetAuthentication(string UserName, bool IsAuthenticated)
         {
             AppUser user = GetByUserName(UserName);
-            user.IsAuthenticated = IsAuthenticated;
+            if (user != null)
+            {
+                user.IsAuthenticated = IsAuthenticated;
+            }
         }
 
         public AppUser GetByUserName(string UserName)
         {
             List<AppUser> allUsers = GetAll();
-            AppUser user = allUsers.Find(x => x.UserName == UserName);
-            return user;
+            AppUser user;
+            bool userExists = allUsers.Exists(x => x.UserName == UserName);
+            if (userExists)
+            {
+                user = allUsers.Find(x => x.UserName == UserName);
+                return user;
+            }
+            else
+            {
+                return null;
+            }
         }
     }
 }
