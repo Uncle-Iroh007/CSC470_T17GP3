@@ -57,22 +57,35 @@ namespace P3_Code
 
         public bool Login(string Username, string Password)
         {
-           
+            if(Username == Password)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
         public List<AppUser> GetAll()
         {
-            
+            List<AppUser> users = new List<AppUser>();
+            foreach (KeyValuePair<int, AppUser> user in Users)
+            {
+                users.Add(user.Value);
+            }
+            return users;
         }
-        public void SetAuthentication(string Username, bool IsAuthenticated)
+        public void SetAuthentication(string UserName, bool IsAuthenticated)
         {
-
+            AppUser user = GetByUserName(UserName);
+            user.IsAuthenticated = IsAuthenticated;
         }
-      
-        
 
         public AppUser GetByUserName(string UserName)
         {
-
+            List<AppUser> allUsers = GetAll();
+            AppUser user = allUsers.Find(x => x.UserName == UserName);
+            return user;
         }
     }
 }

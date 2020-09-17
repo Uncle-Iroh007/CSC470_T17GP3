@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DSU\\source\\repos\\Uncle-Iroh007\\CSC470_T17GP3\\.vs\\Solution1\\AppUser\\P3_Code.csproj": {}
+    "C:\\Users\\DSU\\Source\\Repos\\Uncle-Iroh007\\CSC470_T17GP3\\AppUser\\P3_Code.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DSU\\source\\repos\\Uncle-Iroh007\\CSC470_T17GP3\\.vs\\Solution1\\AppUser\\P3_Code.csproj": {
+    "C:\\Users\\DSU\\Source\\Repos\\Uncle-Iroh007\\CSC470_T17GP3\\AppUser\\P3_Code.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DSU\\source\\repos\\Uncle-Iroh007\\CSC470_T17GP3\\.vs\\Solution1\\AppUser\\P3_Code.csproj",
+        "projectUniqueName": "C:\\Users\\DSU\\Source\\Repos\\Uncle-Iroh007\\CSC470_T17GP3\\AppUser\\P3_Code.csproj",
         "projectName": "P3_Code",
-        "projectPath": "C:\\Users\\DSU\\source\\repos\\Uncle-Iroh007\\CSC470_T17GP3\\.vs\\Solution1\\AppUser\\P3_Code.csproj",
+        "projectPath": "C:\\Users\\DSU\\Source\\Repos\\Uncle-Iroh007\\CSC470_T17GP3\\AppUser\\P3_Code.csproj",
         "packagesPath": "C:\\Users\\DSU\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DSU\\source\\repos\\Uncle-Iroh007\\CSC470_T17GP3\\.vs\\Solution1\\AppUser\\obj\\",
+        "outputPath": "C:\\Users\\DSU\\Source\\Repos\\Uncle-Iroh007\\CSC470_T17GP3\\AppUser\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
