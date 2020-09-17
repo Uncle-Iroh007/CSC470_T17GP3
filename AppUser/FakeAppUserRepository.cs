@@ -4,7 +4,7 @@ using System.Text;
 
 namespace P3_Code
 {
-    public class FakeAppUserRepository : IAppUser
+    public class FakeAppUserRepository : IAppUserRepository
     {
         private static Dictionary<int, AppUser> Users;
 
@@ -17,7 +17,7 @@ namespace P3_Code
 
                 Users.Add(1, new AppUser
                 {
-                    UserName = "Naulca",
+                    UserName = "Naluca",
                     Password = "password",
                     FirstName = "Raquel",
                     LastName = "Meyer",

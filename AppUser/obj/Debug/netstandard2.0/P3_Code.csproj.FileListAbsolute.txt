@@ -7,3 +7,12 @@ C:\Users\DSU\Source\Repos\Uncle-Iroh007\CSC470_T17GP3\AppUser\bin\Debug\netstand
 C:\Users\DSU\Source\Repos\Uncle-Iroh007\CSC470_T17GP3\AppUser\bin\Debug\netstandard2.0\P3_Code.pdb
 C:\Users\DSU\Source\Repos\Uncle-Iroh007\CSC470_T17GP3\AppUser\obj\Debug\netstandard2.0\P3_Code.dll
 C:\Users\DSU\Source\Repos\Uncle-Iroh007\CSC470_T17GP3\AppUser\obj\Debug\netstandard2.0\P3_Code.pdb
+C:\Users\1999a\Source\Repos\CSC470_T17GP3\AppUser\bin\Debug\netstandard2.0\P3_Code.deps.json
+C:\Users\1999a\Source\Repos\CSC470_T17GP3\AppUser\bin\Debug\netstandard2.0\P3_Code.dll
+C:\Users\1999a\Source\Repos\CSC470_T17GP3\AppUser\bin\Debug\netstandard2.0\P3_Code.pdb
+C:\Users\1999a\Source\Repos\CSC470_T17GP3\AppUser\obj\Debug\netstandard2.0\P3_Code.csprojAssemblyReference.cache
+C:\Users\1999a\Source\Repos\CSC470_T17GP3\AppUser\obj\Debug\netstandard2.0\P3_Code.AssemblyInfoInputs.cache
+C:\Users\1999a\Source\Repos\CSC470_T17GP3\AppUser\obj\Debug\netstandard2.0\P3_Code.AssemblyInfo.cs
+C:\Users\1999a\Source\Repos\CSC470_T17GP3\AppUser\obj\Debug\netstandard2.0\P3_Code.csproj.CoreCompileInputs.cache
+C:\Users\1999a\Source\Repos\CSC470_T17GP3\AppUser\obj\Debug\netstandard2.0\P3_Code.dll
+C:\Users\1999a\Source\Repos\CSC470_T17GP3\AppUser\obj\Debug\netstandard2.0\P3_Code.pdb
